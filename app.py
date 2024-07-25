@@ -48,7 +48,7 @@ def predict():
         
         # Realizar la predicción
         predict_1 = best_model.predict(sample)
-        prediction = round(1.1 * predict_1[0])   
+        prediction = round(1.1 * predict_1[0])
         
         # Formatear el número con separadores de miles, usando puntos, y símbolo del euro
         prediction_formatted = '{:,.0f} €'.format(prediction).replace(',', '.')

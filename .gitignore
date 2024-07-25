@@ -1,0 +1,33 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Archivos de configuración del entorno
+.env
+.env.*
+
+# Archivos de compilación
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de log
+*.log
+
+# Archivos de datos
+*.csv
+*.dat
+*.sqlite
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+
+# Archivos y directorios del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de paquetes y dependencias
+node_modules/
